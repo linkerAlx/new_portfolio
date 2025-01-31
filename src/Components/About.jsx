@@ -1,8 +1,5 @@
 import React from "react";
-import { aboutDetails } from "../constants";
-import ImageSlider from "./ImageSlider";
-
-
+import { aboutDetails, slides } from "../constants";
 
 const About= () => {
   return (
@@ -18,7 +15,12 @@ const About= () => {
 <div className="flex flex-col lg:flex-row justify-center items-center mb-3">
   {/* Image Slider */}
   <div className="w-full lg:w-auto mb-6 lg:mb-0">
-    <ImageSlider/>
+  <img
+          src={slides[0].src} // Use slides[1] or map if you want multiple images
+          alt="About"
+          className="min-w-full h-[400px] rounded-lg shadow-md"
+        />
+
   </div>
 
   {/* Who I Am section */}

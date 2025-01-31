@@ -27,19 +27,8 @@ export const Socials = [
   
 ];
 export const slides = [
- 
- 
-  {
-    src: "../Assets/photos/picture1.jpeg", 
-  
-      
-  },
-  {
-    src: "https://i.pinimg.com/736x/83/74/f9/8374f9b2a5009759f83aaf7c44ecc349.jpg",
-      
-  },
+  { src: "/assets/photos/picture1.jpeg" }, // No need for `public/`
 ];
-
 export const aboutDetails = [
   { label: "Name", value: "INEZA LINKER Arlene" },
   { label: "Age", value: "22" }, 

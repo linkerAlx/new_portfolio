@@ -3,7 +3,7 @@ import { FaPhoneAlt, FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 
 
-const Contact= () => {
+const Contact = () => {
   return (
     <div className='w-full h-full flex flex-col items-center justify-center mt-14'>
     {/* Heading */}
@@ -20,7 +20,7 @@ const Contact= () => {
       }}>
                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Information Section */}
-          <div className="bg-[#5F8184] bg-opacity-50 text-gray-400 font-sans  shadow-lg rounded-lg p-3 m-6 flex flex-col items-start justify-center w-60">
+          <div className="bg-[#5F8184] bg-opacity-50 text-black font-sans  shadow-lg rounded-lg p-3 m-6 flex flex-col items-start justify-center w-60">
             <div className="flex items-center   mb-4">
               <FaPhoneAlt className=" text-xl mr-3 " />
               <span className="text-lg">+250783653531</span>
@@ -46,20 +46,20 @@ const Contact= () => {
           <div className=" shadow-lg rounded-lg p-6">
             <h2 className="text-xl font-semibold mb-4 text-center text-white">Stay Connected With Us!</h2>
             <p className="text-sm text-gray-200 mb-6 text-center">
-              "We're here to listen, assist, and collaborate—whether you have questions, need support, or want to share your thoughts, connect with us today!"
+              We are here to listen assist and collaborate—whether you have questions need support or want to share your thoughts connect with us today!
             </p>
 
-            <form className="flex flex-col space-y-4">
+            <form className="flex flex-col space-y-4 ">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
                   type="text"
                   placeholder="Full Name"
-                  className="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border placeholder:text-gray-300 border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 <input
                   type="text"
                   placeholder="Phone"
-                  className="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border  placeholder:text-gray-300 border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -67,18 +67,18 @@ const Contact= () => {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border  placeholder:text-gray-300 border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="border  placeholder:text-gray-300 border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
               <textarea
                 placeholder="Message"
-                              className="border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                              className="border  placeholder:text-gray-300 border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
               ></textarea>
 
               <button
