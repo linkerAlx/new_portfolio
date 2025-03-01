@@ -1,5 +1,5 @@
 import React from "react";
-import { aboutDetails, slides } from "../constants";
+import { aboutDetails, slides } from "../Constants";
 
 const About= () => {
   return (
@@ -47,16 +47,13 @@ const About= () => {
     </div>
      {/* View cv Button */}
       
-  <div className="flex justify-center mt-14">
-  <a
-  href="/CV.pdf"
-  download="ineza_linker_CV.pdf"
-  className="px-6 py-2 text-white bg-[#5F8184] rounded-full hover:bg-[#486364] transition-colors"
->
+     <div className="flex justify-center mt-14">
+     <a href="/assets/CV.pdf" download="ineza_linker_CV.pdf" className="px-6 py-2 text-white bg-[#5F8184] rounded-full hover:bg-[#486364] transition-colors">
   Download CV
 </a>
 
-  </div>
+</div>
+
 
     {/* Decoration lines */}
     <div className="flex justify-center items-center mt-16 gap-10">

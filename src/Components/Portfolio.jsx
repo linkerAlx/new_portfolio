@@ -1,7 +1,8 @@
 
 import React from 'react';
-import { cardData } from '../constants';
+
 import Card from './Card';
+import { cardData } from '../Constants';
 
 
 

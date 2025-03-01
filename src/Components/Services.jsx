@@ -1,6 +1,4 @@
-import { services } from "../constants"
-
-
+import { services } from "../Constants"
 
 const Services  = () => {
   return (

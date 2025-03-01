@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
-import footerConstants, { Socials } from "../constants";
+import footerConstants, { Socials } from "../Constants";
 
 const Footer = () => {
     
